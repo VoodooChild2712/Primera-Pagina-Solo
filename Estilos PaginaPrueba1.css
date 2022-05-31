@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+    background: purple;
+    color: black;
+}
+
+h2 {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.menu {
+    text-align: left;
+
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    background:rgb(119, 17, 17);
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    display:block;
+}
+
+.agrupar {
+    border: 1px solid black;
+    width: 1000px;
+    margin: 15px auto;
+    background: rgb(78, 11, 11);
+}
+
+.columna {
+    width: 30%;
+    float: left;
+    margin: 20px 0px;
+}
+
+.columna blockquote {
+    border: 1px solid black;
+    padding: 40px;
+    background: rgb(0, 51, 0);
+    margin-bottom: 26px;
+    margin-top: 5px;
+}
+
+.time {
+    color: rgb(58, 57, 57);
+    margin-top: 15px auto;
+}
+
+.seccion {
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 20px;
+    width: 60%;
+    background: rgb(0, 0, 78);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.pie {
+    color: white;
+    background: black;
+    clear: both;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin: 20px auto;
+}
+
+.comentarios {
+    background: rgb(52, 42, 42);
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+footer {
+    margin: 15px auto;
+}
+
+aside{
+    margin: 15px auto;
+    padding: 5px;
+}
